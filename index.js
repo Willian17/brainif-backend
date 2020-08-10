@@ -4,7 +4,7 @@ const app = express()
 const routes = require('./src/routes')
 
 app.use(express.json())
-app.use(cors({origin: 'https://brainif.willian17.vercel.app'}))
+app.use(cors())
 app.use(routes)
 
 const porta =  process.env.PORT || 3001
