@@ -17,7 +17,7 @@ routes.post('/student-signin' , api.studentSignin)
 // routes.get('/teachers' , api.getTeacher)
 // routes.get('/questions' , api.getQuestions)
 // routes.get('/responses' , api.getResponse)
-// routes.get('/students' , api.getStudent)
+routes.get('/students' , api.getStudent)
 
 // routes.delete('/question/:id' , api.deleteQuestion)
 // routes.delete('/responses/:id' , api.deleteResponse)
